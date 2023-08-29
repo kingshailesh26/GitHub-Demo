@@ -1,0 +1,11 @@
+#Branch
+git branch // to check branch
+git checkout -b <-branch name-> // to make new branch
+git checkout <-branch name-> // move to another branch
+git branch -d <-branch name-> // to delete branch
+*note - you cannot delete a branch if you are on it. So you have to move yo a different branch first in        order to delete it
+
+#Merging two branches
+git diff <-branch-name-> // to check differences between two branches
+git merge <-branch-name-> // to merge
+

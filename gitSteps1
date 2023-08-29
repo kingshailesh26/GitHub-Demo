@@ -1,0 +1,31 @@
+#From GitHub repo to local machine 
+
+
+git clone <-link->
+// to make clone on local computer from GitHub
+
+cd <-new-folder->
+// to change directory to a inner folder
+
+ls -a / ls -Hidden
+// to check all hidden files, ie, .git
+
+git status
+// to check status of files, ie, 
+1)Modified - changed
+2)Untracked - new files that git doesn't yet tracked
+3)Staged - file is ready to be commited 
+4)Unmodified - unchanged
+
+git add <-file-name->
+git add .
+// to add files ready to be commited
+
+git commit -m "<-meaningful message->"
+
+git push origin <-branch-name->
+// to make changes(update) github repo
+
+
+
+

@@ -1,0 +1,15 @@
+#From local machine to GitHub Repo
+
+echo "# localrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kingshailesh26/localrepo.git
+git remote -v
+git push -u origin main
+
+
+git remote add origin https://github.com/kingshailesh26/localrepo.git
+git branch -M main
+git push -u origin main
